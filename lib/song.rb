@@ -18,6 +18,11 @@ song = Song.new_by_name("The
 Middle")
 end
 
+song = Song.create_by_name("The 
+Middle")
+
+song = Song.all.include?(song)
+end
 
 
 
