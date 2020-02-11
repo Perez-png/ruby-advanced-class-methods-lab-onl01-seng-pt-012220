@@ -62,6 +62,9 @@ Song.create_from_filename("Taylor
 Swift - Blank Space.mp3.")
 end
 
+Song.destroy_all
+end
+
 
 end
 
