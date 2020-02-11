@@ -40,6 +40,13 @@ Song.find_or_create_by_name("
 Blank Space")
 end
 
+def song.alphabetical
+  songs_in_ascending_alphabetical_order(
+  sort → array
+  sort { |a, b| block } → array)
+  
+end
+
 
 end
 
