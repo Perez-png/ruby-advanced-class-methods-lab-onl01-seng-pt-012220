@@ -12,8 +12,12 @@ class Song
 
 song = Song.create
 Song.all.include?(song)
-
 end
+
+song = Song.new_by_name("The 
+Middle")
+end
+
 
 
 
