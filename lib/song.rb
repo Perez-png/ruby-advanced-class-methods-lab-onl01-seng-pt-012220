@@ -58,6 +58,9 @@ song.name
 song.artist_name
 end
 
+Song.create_from_filename("Taylor
+Swift - Blank Space.mp3.")
+end
 
 
 end
@@ -65,4 +68,5 @@ end
 
 
 song_1 == song_2
+Song.create_from_filename
 
